@@ -6,11 +6,14 @@ import "fmt"
 func main() {
 	// this is a small message for my first go program
 	fmt.Println("Hello world! this is my first GO program ever.")
+
 	//created my first int varliable in go, when creating varibales in Go you need to define "var"
 	var halfevil int = 333
+
 	//fmt.print and fmt.printf statment need to research what they mean
 	fmt.Print("The number for half evil is : ", halfevil, " The best fucking number in world or whateva.")
 	fmt.Printf("\n")
+
 	//looping thorugh and array
 	number := []int{2, 4, 6, 8, 10}
 	for _, num := range number {
