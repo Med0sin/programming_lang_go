@@ -28,5 +28,11 @@ func main() {
 
 	p := &i
 
+	j := 500
+
+	t := &j
+	*t = 50
+
 	fmt.Println(*p)
+	fmt.Println(*t)
 }
