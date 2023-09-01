@@ -12,11 +12,21 @@ func main() {
 
 	//fmt.print and fmt.printf statment need to research what they mean
 	fmt.Print("The number for half evil is : ", halfevil, " The best fucking number in world or whateva.")
+
+	fmt.Print("This program is used to demonstracte my useage of go the language.")
 	fmt.Printf("\n")
 
 	//looping thorugh and array
 	number := []int{2, 4, 6, 8, 10}
 	for _, num := range number {
-		fmt.Print(num, " ")
+		fmt.Print(num, " ", "\n")
 	}
+
+	//this is a pointer demonstraton
+
+	i := 489
+
+	p := &i
+
+	fmt.Println(*p)
 }
