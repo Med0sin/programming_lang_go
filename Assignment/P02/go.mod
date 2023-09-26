@@ -7,4 +7,5 @@ require (
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	golang.org/x/image v0.12.0 // indirect
+	gopkg.in/gographics/imagick.v2 v2.6.3 // indirect
 )

@@ -2,13 +2,16 @@
 
 package imageManipulator
 
+package imagemod
+
 import (
-	"github.com/fogleman/gg"
+    "github.com/fogleman/gg"
 )
 
 // ImageManipulator represents an image manipulation tool.
 type ImageManipulator struct {
-	Image *gg.Context
+    Image *gg.Context
+    ImagePath string // Add a field to store the image path
 }
 
 // NewImageManipulator creates a new ImageManipulator instance.
