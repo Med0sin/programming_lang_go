@@ -1,1 +1,7 @@
-
+Assignment 4
+ahmed krubally
+Description: 
+This Go program is designed to download a set of images from given URLs and save them to disk. The program includes two versions of the downloader:
+1. Sequential Version:Downloads and saves each image one after the other.
+2. Concurrent Version: Downloads and saves images concurrently using goroutines.
+The goal is to observe the benefits of concurrency for I/O-bound tasks, by comparing the time taken to download images sequentially vs. concurrently.
